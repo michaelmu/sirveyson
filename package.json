@@ -1,0 +1,32 @@
+{
+  "name": "survey-er",
+  "version": "0.0.1",
+  "description": "What's poppin",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "NODE_ENV=production AWS_S3_BUCKET=sirveyson ./scripts/deploy"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "aws-sdk": "^2.1.29",
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "glob": "^5.0.6",
+    "mime": "^1.3.4",
+    "query-string": "^4.2.2",
+    "react": "^15.1.0",
+    "react-addons-update": "^15.1.0",
+    "react-bootstrap": "^0.29.5",
+    "react-dom": "^15.1.0",
+    "redux": "^3.5.2",
+    "webpack": "^1.13.1"
+  },
+  "dependencies": {
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.1"
+  }
+}
